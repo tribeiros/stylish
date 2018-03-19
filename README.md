@@ -1,1 +1,1 @@
-My stylish backup collection dude
+My stylish backup collection for all those OS's and Machines
