@@ -1,0 +1,94 @@
+/*
+rancher made by tribeiros
+*/
+
+/* variables */
+
+:root {
+    --main-bg-color: #1f2326;
+    --main-fg-color: #1c1f22;
+}
+
+/* Geral */
+
+BODY {
+    background-color: var(--main-fg-color)
+}
+
+/* header */
+
+HEADER NAV.navbar {
+    background-color: var(--main-bg-color)
+}
+
+HEADER .logo {
+    background-color: var(--main-bg-color)
+}
+
+HEADER NAV.navbar .project-btn {
+    background: var(--main-bg-color)
+}
+
+HEADER NAV.navbar .project-btn:after {
+    border-color: transparent transparent transparent var(--main-bg-color)
+}
+
+/* content */
+
+SECTION.header h1 {
+    color: #fff;
+}
+
+.well {
+    background-color: var(--main-bg-color)
+}
+
+.stack-section .right-divider {
+    border-right: 0px dotted #ccd1d3;
+}
+
+.stack-section .count P {
+    color: #fff
+}
+
+.btn-default {
+    background: #0075a8;
+    color: #fff;
+    border-color: #0075a8;
+}
+
+h4.divider.clip.stack-link a {
+    color: #0075a8;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #0075a8;
+    border-color: #0075a8;
+}
+
+tr {
+    background: #1a2632!important;
+}
+
+.stack-section .grid TD {
+    border: 0px dotted #ccd1d3;
+}
+
+tbody tr td span {
+    color: #999;
+}
+
+div.tooltip-warning {
+    background-color: #c7254e;
+}
+
+.grid>TBODY>TR:hover {
+    background-color: #3b3c3f!important;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--main-bg-color)
+}
