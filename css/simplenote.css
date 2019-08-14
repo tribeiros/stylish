@@ -1,0 +1,87 @@
+:root {
+  --main-bg-color: #1f2326; 
+  --secu-bg-color: #1c1f22;
+  --main-text-color: #cbcbcb;
+  --secu-text-color: #f9f9f9;
+  --main-detail-color: #448ac9;
+}
+
+html, body {
+  background: var(--main-bg-color);
+}
+
+a {
+  color: var(--main-text-color);
+}
+
+span {
+  color: var(--main-text-color);
+}
+
+.ReactVirtualized__Grid.ReactVirtualized__List {
+  background: var(--main-bg-color);
+}
+
+.note-toolbar {
+  background: var(--main-bg-color);
+}
+
+.note-list-item.note-list-item-selected {
+  background: var(--secu-bg-color);
+  border-right: 1px solid var(--main-detail-color);
+}
+
+.note-list-item .note-list-item-excerpt {
+  color: var(--secu-text-color);
+}
+
+.search-bar.theme-color-border {
+  background: var(--main-bg-color);
+}
+
+.search-field input {
+  background: var(--main-bg-color);
+  color: var(--secu-text-color);
+  border: var(--main-bg-color);
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  background: var(--main-bg-color);
+}
+
+.note-detail {
+  background: var(--main-bg-color);
+}
+
+.note-detail-textarea.theme-color-bg.theme-color-fg {
+  background: var(--main-bg-color);
+}
+
+.tag-field {
+  background: var(--main-bg-color);
+}
+
+.tag-chip {
+  background: var(--secu-bg-color);
+  color: #4d4d4d;
+}
+
+.theme-light .theme-color-border {
+  border-color: var(--main-bg-color);
+}
+
+.note-list.is-empty {
+  background: var(--main-bg-color);
+}
+
+.note-detail-placeholder {
+  background: var(--main-bg-color);
+}
+
+.note-toolbar-wrapper.theme-color-border {
+  background: var(--main-bg-color);
+}
+
+.theme-light .search-field {
+  border-color: var(--main-bg-color);
+}
